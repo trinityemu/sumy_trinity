@@ -1,0 +1,14 @@
+Installation Instructions:
+There is no update procedure from any previous DB Install: Warning - All custom content will be lost
+
+* YTDB_0.10.3_R507_MaNGOS_R8456_SD2_R1389_RuDB_R33.sql <- Apply to EMPTY World Database - Get This From http://filebeam.com/38bb13fa1aa49c3c9675906b91734d95
+* 508_corepatch_mangos_8456_to_8485.sql <- Apply to EMPTY World Database - Get This From http://svn2.assembla.com/svn/ytdbase/R50/Updates/
+* 508_mangos_FIX_(8485).sql <- Apply to EMPTY World Database - Get This From http://svn2.assembla.com/svn/ytdbase/R50/Updates/
+
+* YTDB_508_to_TDB_TC2_XXXX_Converter.sql <- Apply to World Database - Get This From this Repo (XXXX - current supported version of TC2)
+* Import new sqls from core if exist any with higer number than XXXX <- Get This From TC2 Repo http://dev.trinitycore.org/trinitycore2/src/tip/sql/updates/
+* world_script_texts.sql <- Apply to World Database - Get This From TC2 Repo http://dev.trinitycore.org/trinitycore2/src/tip/sql/FULL/
+* world_script_waypoints.sql <- Apply to World Database - Get This From TC2 Repo http://dev.trinitycore.org/trinitycore2/src/tip/sql/FULL/
+* world_scripts_full.sql <- Apply to World Database - Get This From TC2 Repo http://dev.trinitycore.org/trinitycore2/src/tip/sql/FULL/
+* world_spell_full.sql <- Apply to World Database - Get This From TC2 Repo http://dev.trinitycore.org/trinitycore2/src/tip/sql/FULL/
+* world_trinity_string_full <- Apply to World Database - Get This From TC2 Repo http://dev.trinitycore.org/trinitycore2/src/tip/sql/FULL/

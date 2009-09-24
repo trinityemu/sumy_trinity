@@ -1,0 +1,18 @@
+Installation Instructions:
+There is no update procedure from any previous DB Install: Warning - All custom content will be lost
+
+* UDB_0.11.5_Core_7681_SD2_1012.sql <- Apply to EMPTY World Database - Get This From UDB SVN https://unifieddb.svn.sourceforge.net/svnroot/unifieddb/trunk/Full_DB/
+* 380_corepatch_mangos_7682_to_7894.sql <- Apply to World Database - Get This From UDB SVN https://unifieddb.svn.sourceforge.net/svnroot/unifieddb/trunk/Updates/0.11.5_additions/
+* 380_updatepack_mangos.sql <- Apply to World Database - Get This From UDB SVN https://unifieddb.svn.sourceforge.net/svnroot/unifieddb/trunk/Updates/0.11.5_additions/
+* 381_corepatch_mangos_7895_to_8016.sql <- apply to mangos database - Get This From UDB SVN https://unifieddb.svn.sourceforge.net/svnroot/unifieddb/trunk/Updates/0.11.5_additions/
+* 381_updatepack_mangos.sql <- apply to mangos database - Get This From UDB SVN https://unifieddb.svn.sourceforge.net/svnroot/unifieddb/trunk/Updates/0.11.5_additions/
+* 382_corepatch_mangos_8030_to_8280.sql <- apply to mangos database - Get This From UDB SVN https://unifieddb.svn.sourceforge.net/svnroot/unifieddb/trunk/Updates/0.11.5_additions/
+* 382_updatepack_mangos.sql <- apply to mangos database - Get This From UDB SVN https://unifieddb.svn.sourceforge.net/svnroot/unifieddb/trunk/Updates/0.11.5_additions/
+
+* UDB_382_to_TDB_TC2_XXXX_Converter.sql <- Apply to World Database - Get This From this Repo (XXXX - current supported version of TC2)
+* Import new sqls from core if exist any with higer number than XXXX <- Get This From TC2 Repo http://dev.trinitycore.org/trinitycore2/src/tip/sql/updates/
+* world_script_texts.sql <- Apply to World Database - Get This From TC2 Repo http://dev.trinitycore.org/trinitycore2/src/tip/sql/FULL/
+* world_script_waypoints.sql <- Apply to World Database - Get This From TC2 Repo http://dev.trinitycore.org/trinitycore2/src/tip/sql/FULL/
+* world_scripts_full.sql <- Apply to World Database - Get This From TC2 Repo http://dev.trinitycore.org/trinitycore2/src/tip/sql/FULL/
+* world_spell_full.sql <- Apply to World Database - Get This From TC2 Repo http://dev.trinitycore.org/trinitycore2/src/tip/sql/FULL/
+* world_trinity_string_full <- Apply to World Database - Get This From TC2 Repo http://dev.trinitycore.org/trinitycore2/src/tip/sql/FULL/
